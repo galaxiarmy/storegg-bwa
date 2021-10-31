@@ -11,7 +11,7 @@ export default function Illustration() {
                         <Image src="/img/Header-2.png" width={40} height={40} className="rounded-pill"
                             alt="" />
                         <div>
-                            <p className="text-sm fw-medium color-palette-1 m-0">Shayna Anne</p>
+                            <p className="text-sm fw-medium color-palette-1 m-0">Shafira Amalia</p>
                             <p className="text-xs fw-light color-palette-2 m-0">Professional Gamer</p>
                         </div>
                     </div>

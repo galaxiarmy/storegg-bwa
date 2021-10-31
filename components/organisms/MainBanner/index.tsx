@@ -1,5 +1,7 @@
-import Image from 'next/image'
+import Link from 'next/link'
+
 import Illustration from './Illustration'
+
 export default function MainBanner() {
     return (
         <section className="header pt-lg-60 pb-50">
@@ -7,7 +9,7 @@ export default function MainBanner() {
             <div className="row gap-lg-0 gap-5">
                 <div className="col-lg-6 col-12 my-auto">
                     <p className="text-support text-lg color-palette-2">
-                        Halo gamers,
+                        Halo gamers
                     </p>
                     <h1 className="header-title color-palette-1 fw-bold">
                         Topup & Get <span className="d-sm-inline d-none">a</span><span className="d-sm-none d-inline">a
@@ -18,10 +20,14 @@ export default function MainBanner() {
                             className="d-md-block d-none" /> players menjadi pemenang sejati
                     </p>
                     <div className="d-flex flex-lg-row flex-column gap-4">
-                        <a className="btn btn-get text-lg text-white rounded-pill" href="#feature" role="button">Get
+                        <Link href="#feature">
+                        <a className="btn btn-get text-lg text-white rounded-pill" role="button">Get
                             Started</a>
-                        <a className="btn-learn text-lg color-palette-1 my-auto text-center" href="/#" role="button">Learn
+                            </Link>
+                        <Link href="/#">
+                        <a className="btn-learn text-lg color-palette-1 my-auto text-center"  role="button">Learn
                             More</a>
+                        </Link>
                     </div>  
                 </div>
                 <Illustration />
