@@ -1,6 +1,6 @@
 
 import { useEffect } from 'react';
-import AOS from 'aos'
+import AOS from 'aos';
 
 export default function Home() { 
 
