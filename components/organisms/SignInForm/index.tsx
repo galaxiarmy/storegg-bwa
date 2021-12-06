@@ -21,8 +21,10 @@ export default function SignInForm() {
                         </div>
 
                         <div className="button-group d-flex flex-column mx-auto pt-50">
+                            <Link href="/">
                             <a className="btn btn-sign-in fw-medium text-lg text-white rounded-pill mb-16"
-                                href="../index.html" role="button">Continue to Sign In</a>
+                              role="button">Continue to Sign In</a>
+                            </Link>
                             <Link href="/sign-up">
                             <a className="btn btn-sign-up fw-medium text-lg color-palette-1 rounded-pill"
                                  role="button">Sign
